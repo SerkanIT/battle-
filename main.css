@@ -1,0 +1,200 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1160px;
+}
+
+header {
+    background-color: #490404;
+}
+
+nav {
+    display: flex;
+    gap: 37px;
+    justify-content: start;
+}
+
+
+nav img {
+    padding-top: 33px;
+    padding-bottom: 35px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 44px;
+}
+
+ul a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+}
+
+.label {
+    font-size: 51px;
+    font-weight: 700;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    width: 481px;
+    padding-top: 100px;
+}
+
+.section-1 {
+    background-color: black;
+}
+
+.label-lorem {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    width: 338px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-top: 43px;
+}
+
+.btn {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    border: none;
+    padding: 14px 49px;
+    margin-top: 115px;
+    transition: 0.8s;
+    margin-bottom: 130px;
+}
+
+.btn:hover {
+    transition: 0.8s;
+    background: #8DFD1B;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrap-right {
+    align-items: center;
+    padding-top: 79px;
+}
+
+.section-2 {
+    background-color: black;
+}
+
+.road-history {
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 199px;
+}
+
+.circle {
+    display: flex;
+    background-image: url(./images/circles.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card1 {
+    width: 540px;
+    background-color: gray;
+    position: absolute;
+    top: 1116px;
+    margin: 0 auto;
+    right: 457px;
+    opacity: 0.5;
+}
+
+.card-num {
+    width: 50px;
+    height: 50px;
+    background-color: #8DFD1B;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-num h2 {
+    transform: translateY(8px);
+    font-size: 30px;
+}
+
+.card-spring {
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    width: 234px;
+}
+
+.all-them {
+    flex-direction: column;
+}
+
+.line {
+    width: 540px;
+    height: 2px;
+    background-color: #8DFD1B;
+    margin-top: 70px;
+    ;
+}
+
+.all {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.safari {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 30px;
+    padding-top: 45px;
+}
+
+.discord12 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+
+.random {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: white;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.alll{
+    display: block;
+}
